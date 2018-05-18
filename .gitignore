@@ -1,3 +1,6 @@
 # IntelliJ IDEA
 .idea/
 pwa-camera-sample.iml
+
+# npm
+node_modules/
