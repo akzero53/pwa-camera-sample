@@ -1,0 +1,19 @@
+{
+  "name": "pwa-camera-sample",
+  "version": "1.0.0",
+  "description": "PWAでカメラを利用するサンプル。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akzero53/pwa-camera-sample.git"
+  },
+  "author": "Eisuke Okuyama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akzero53/pwa-camera-sample/issues"
+  },
+  "homepage": "https://github.com/akzero53/pwa-camera-sample#readme"
+}
