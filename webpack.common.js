@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const PrettierPlugin = require('./plugins/prettier-plugin');
 
@@ -15,6 +16,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: __dirname + '/src/index.html',
     }),
+    new CopyWebpackPlugin([{ from: __dirname + '/src/service-worker.js', to: __dirname + '/dist/service-worker.js' }]),
   ],
   module: {
     rules: [
